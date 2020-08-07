@@ -1,10 +1,10 @@
 import React from "react";
-import "./App.css";
+import styles from "./App.module.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Portfolio</h1>
+    <div className={styles["App"]}>
+      <h1 className={styles["title"]}>Portfolio</h1>
     </div>
   );
 }
