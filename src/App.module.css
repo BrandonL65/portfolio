@@ -1,4 +1,13 @@
 .App {
-  background-color: red;
-  height: 100vh;
+  background-image: url(./pictures/april.png);
+  height: 300vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.title {
+  text-align: center;
+}
+.name {
+  color: palevioletred;
+  padding-top: 30px;
 }

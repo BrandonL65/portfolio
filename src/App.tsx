@@ -1,10 +1,14 @@
 import React from "react";
 import styles from "./App.module.css";
+import HeaderContainer from "./containers/HeaderContainer";
 
 function App() {
   return (
     <div className={styles["App"]}>
-      <h1 className={styles["title"]}>Portfolio</h1>
+      <HeaderContainer />
+      <div className={styles["title"]}>
+        <h1 className={styles["name"]}>Hello I'm Brandon!</h1>
+      </div>
     </div>
   );
 }
