@@ -22,7 +22,11 @@ const Experience = (props: ExperienceProps) => {
     <div className={styles["container"]}>
       <div className={styles["company"]}>
         <h1 className={styles["company-name"]}>{props.companyName}</h1>
-        <img className={styles["company-image"]} src={props.logo}></img>
+        <img
+          className={styles["company-image"]}
+          src={props.logo}
+          alt="mlb logo"
+        ></img>
       </div>
       <div className={styles["work-details"]}>
         <div className={styles["work-role-and-start-end-dates"]}>
