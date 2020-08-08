@@ -1,0 +1,23 @@
+.container {
+  padding-top: 3rem;
+  background-color: white;
+  height: 70vh;
+  font-family: "Montserrat", sans-serif;
+  overflow: scroll;
+}
+
+.title {
+  text-align: center;
+  color: rgba(95, 93, 192, 0.63);
+  font-family: "Dancing Script", cursive;
+  font-size: 2.9rem;
+}
+
+.hr {
+  margin: 1rem auto;
+  width: 75%;
+  border-top: none;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: rgba(56, 55, 55, 0.568);
+}

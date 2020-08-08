@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 2rem;
+}
+
+.company {
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  max-width: 30%;
+}
+
+.company-name {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.company-image {
+  width: 50%;
+  height: auto;
+}
+
+.work-role-and-start-end-dates {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.work-role {
+  font-size: 1.1rem;
+}
+
+.work-details {
+  max-width: 45%;
+}
+
+.work-dates {
+  font-size: 0.9rem;
+}
+
+.work-highlights-li {
+  margin: 0.4rem 0;
+}
