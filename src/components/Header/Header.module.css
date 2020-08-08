@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  position: fixed;
+  width: 100vw;
+  border-bottom: 1px solid rgba(95, 93, 192, 0.63);
+}
+
+.header-links {
+  font-size: 1.1rem;
+  margin: 0 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.4s;
+}
+
+.header-links:hover {
+  color: rgba(95, 93, 192, 0.63);
+  transform: scale(1.05);
+}
