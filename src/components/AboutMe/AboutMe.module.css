@@ -1,6 +1,7 @@
 .container {
   background-color: white;
-  height: 65vh;
+  height: 60vh;
+  font-family: "Montserrat", sans-serif;
 }
 
 .about-me {
@@ -21,6 +22,14 @@
 }
 
 .bio {
+  font-size: 1.05rem;
   margin-left: 2rem;
   width: 40%;
+  max-width: 40%;
+}
+
+.horizontal-rule {
+  color: rgba(95, 93, 192, 0.63);
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
 }
