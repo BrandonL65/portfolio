@@ -1,13 +1,10 @@
 .App {
-  background-image: url(./pictures/april.png);
-  height: 300vh;
+  background-image: url(./pictures/pic2.jpg);
+  /* background: url(./pictures/pic2.jpg) no-repeat center center fixed; */
+  height: 100%;
+  width: 100%;
   background-size: cover;
   background-attachment: fixed;
-}
-.title {
-  text-align: center;
-}
-.name {
-  color: palevioletred;
-  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
 }

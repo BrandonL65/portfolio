@@ -7,7 +7,7 @@
   padding-bottom: 0.5rem;
   position: fixed;
   width: 100vw;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(95, 93, 192, 0.63);
 }
 
 .header-links {
@@ -18,6 +18,6 @@
 }
 
 .header-links:hover {
-  color: palevioletred;
+  color: rgba(95, 93, 192, 0.63);
   transform: scale(1.05);
 }
