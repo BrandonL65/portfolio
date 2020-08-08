@@ -1,9 +1,8 @@
 .container {
   padding-top: 3rem;
   background-color: white;
-  height: 70vh;
+  min-height: 70vh;
   font-family: "Montserrat", sans-serif;
-  overflow: scroll;
 }
 
 .title {

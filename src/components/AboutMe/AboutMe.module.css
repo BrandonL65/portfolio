@@ -1,8 +1,8 @@
 .container {
   background-color: rgb(204, 203, 221);
-  height: 65vh;
+  min-height: 65vh;
   font-family: "Montserrat", sans-serif;
-  overflow: scroll;
+  padding-bottom: 2rem;
 }
 
 .about-me {
