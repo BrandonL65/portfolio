@@ -1,8 +1,12 @@
 .container {
-  background-color: rgb(204, 203, 221);
-  height: 65vh;
+  /* background-color: rgb(204, 203, 221); */
+  /* background-color: rgba(220, 220, 235, 0.198); */
+  background-color: rgba(126, 122, 177, 0.377);
+  min-height: 50vh;
   font-family: "Montserrat", sans-serif;
-  overflow: scroll;
+  /* font-weight: 600; */
+  padding-bottom: 3.5rem;
+  backdrop-filter: blur(11px);
 }
 
 .about-me {

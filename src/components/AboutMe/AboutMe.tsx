@@ -35,7 +35,7 @@ const AboutMe = () => {
             data-aos="fade-left"
             data-aos-offset="-40"
           >
-            Hi there! I'm a developer with experience building enterprise-scale
+            Hi. I'm a developer with experience building enterprise-scale
             applications using TypeScript, React, GraphQL, NodeJS, and much more
             across the stack.
           </p>

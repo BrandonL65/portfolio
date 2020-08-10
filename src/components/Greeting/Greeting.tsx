@@ -8,9 +8,7 @@ const Greeting = () => {
         Hi there, I'm <span className={styles["emphasis"]}>Brandon,</span>
       </h1>
       <h2 className={styles["lower-text"]}>
-        welcome to my{" "}
-        <span className={styles["emphasis"]}>Software Engineering</span>{" "}
-        portfolio
+        a <span className={styles["emphasis"]}>Software Engineer.</span>
       </h2>
     </div>
   );
