@@ -3,7 +3,7 @@
   justify-content: center;
   margin-top: 2rem;
   font-family: "Montserrat", sans-serif;
-  padding-bottom: 3rem;
+  padding-bottom: 4.5rem;
 }
 
 .company {
@@ -36,7 +36,7 @@
 }
 
 .work-details {
-  max-width: 45%;
+  max-width: 60%;
 }
 
 .work-dates {
@@ -45,4 +45,5 @@
 
 .work-highlights-li {
   margin: 0.4rem 0;
+  font-size: 0.9rem;
 }

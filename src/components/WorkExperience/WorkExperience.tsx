@@ -5,19 +5,24 @@ import mlbLogo from "../../pictures/logo-dark.png";
 
 const WorkExperience = () => {
   return (
-    <div className={styles["container"]}>
-      <h1 className={styles["title"]} data-aos="fade-up">
-        Work Experience
-      </h1>
-      <hr className={styles["hr"]} data-aos="fade-up"></hr>
-      <div data-aos="fade-up">
-        <Experience
-          logo={mlbLogo}
-          companyName="MLB Advanced Media L.P."
-          workHighlights={mlbWorkExperience}
-          dateStart="Jan 2020"
-          dateEnd="July 2020"
-        />
+    <div className={styles["outer-container"]}>
+      <div className={styles["container"]}>
+        <h1 className={styles["title"]} data-aos="fade-up">
+          Work Experience
+        </h1>
+        <hr className={styles["hr"]} data-aos="fade-up"></hr>
+        <div data-aos="fade-up">
+          <Experience
+            logo={mlbLogo}
+            companyName="MLB Advanced Media L.P."
+            workHighlights={mlbWorkExperience}
+            dateStart="Jan 2020"
+            dateEnd="July 2020"
+          />
+        </div>
+      </div>
+      <div className={styles["education-container"]}>
+        <h1>Education</h1>
       </div>
     </div>
   );
