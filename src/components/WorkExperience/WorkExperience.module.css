@@ -1,8 +1,10 @@
 .container {
   padding-top: 3rem;
-  background-color: white;
-  min-height: 70vh;
+  background-color: rgba(214, 212, 219, 0.226);
+  backdrop-filter: blur(20px);
+  min-height: 40vh;
   font-family: "Montserrat", sans-serif;
+  padding-bottom: 2rem;
 }
 
 .title {

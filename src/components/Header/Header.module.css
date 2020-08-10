@@ -2,12 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.116);
+  backdrop-filter: blur(30px);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   position: fixed;
   width: 100vw;
   border-bottom: 1px solid rgba(95, 93, 192, 0.63);
+  z-index: 30;
 }
 
 .header-links {
