@@ -21,9 +21,6 @@ const WorkExperience = () => {
           />
         </div>
       </div>
-      <div className={styles["education-container"]}>
-        <h1>Education</h1>
-      </div>
     </div>
   );
 };

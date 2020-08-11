@@ -1,10 +1,10 @@
 import React from "react";
-import WorkExperience from "../WorkExperienceContainer/WorkExperienceContainer";
+import Resume from "../../components/Resume/Resume";
 
 const ResumeContainer = () => {
   return (
     <div>
-      <WorkExperience />
+      <Resume />
     </div>
   );
 };
