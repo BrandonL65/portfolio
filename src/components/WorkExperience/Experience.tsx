@@ -11,11 +11,7 @@ interface ExperienceProps {
 
 const Experience = (props: ExperienceProps) => {
   let workHighlightsListForm = props.workHighlights.map((highlight) => {
-    return (
-      <li className={styles["work-highlights-li"]} data-aos="fade-left">
-        {highlight}
-      </li>
-    );
+    return <p className={styles["work-highlights-li"]}>{highlight}</p>;
   });
 
   return (
@@ -28,14 +24,14 @@ const Experience = (props: ExperienceProps) => {
           alt="mlb logo"
         ></img>
       </div>
-      <div className={styles["work-details"]}>
+      <div className={styles["work-details"]} data-aos="fade-up">
         <div className={styles["work-role-and-start-end-dates"]}>
           <h1 className={styles["work-role"]}>Software Engineer (SP) </h1>
           <h2 className={styles["work-dates"]}>
             {props.dateStart} - {props.dateEnd}
           </h2>
         </div>
-        <ul>{workHighlightsListForm}</ul>
+        {workHighlightsListForm}
       </div>
     </div>
   );

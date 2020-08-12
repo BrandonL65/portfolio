@@ -1,0 +1,21 @@
+.container {
+  background-color: rgba(210, 206, 221, 0.377);
+  backdrop-filter: blur(13px);
+}
+
+.title {
+  text-align: center;
+  color: rgba(95, 93, 192, 0.541);
+  font-family: "Dancing Script", cursive;
+  padding-top: 3rem;
+  font-size: 3.5rem;
+}
+
+.hr {
+  width: 75%;
+  margin: 1rem auto;
+  border-top: none;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: rgba(56, 55, 55, 0.568);
+}
