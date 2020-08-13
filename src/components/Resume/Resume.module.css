@@ -1,5 +1,5 @@
 .container {
-  background-color: rgba(210, 206, 221, 0.377);
+  background-color: rgba(210, 206, 221, 0.425);
   backdrop-filter: blur(13px);
 }
 
@@ -18,4 +18,12 @@
   border-bottom-style: solid;
   border-width: thin;
   border-color: rgba(56, 55, 55, 0.568);
+}
+
+.resume-summary-and-skills {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -17,11 +17,7 @@ const AboutMe = () => {
           alt="profile pic"
         ></img>
         <div className={styles["bio-div"]}>
-          <p
-            className={styles["bio"]}
-            data-aos="fade-left"
-            data-aos-offset="-40"
-          >
+          <p className={styles["bio"]} data-aos="fade-in">
             Hi. I'm a developer with experience building enterprise-scale
             applications using TypeScript, React, GraphQL, NodeJS, and much more
             across the stack.
@@ -31,7 +27,7 @@ const AboutMe = () => {
             data-aos="fade-left"
             data-aos-offset="-40"
           ></hr>
-          <p className={styles["bio"]} data-aos="fade-left">
+          <p className={styles["bio"]} data-aos="fade-in">
             I'm super passionate about developing applications that are visually
             appealing, that combine data with intuitive to use interfaces.
           </p>
@@ -40,7 +36,7 @@ const AboutMe = () => {
             data-aos="fade-left"
             data-aos-offset="-40"
           ></hr>
-          <p className={styles["bio"]} data-aos="fade-left">
+          <p className={styles["bio"]} data-aos="fade-in">
             I believe combining these will garner more interactivity and usage,
             leading to a more satisfying user experience.
           </p>
