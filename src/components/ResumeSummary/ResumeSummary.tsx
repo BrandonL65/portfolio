@@ -10,7 +10,7 @@ const ResumeSummary = () => {
         data-driven applications written in Typescript and React. Worked on
         multiple teams to maintain, as well as develop new applications released
         both externally and internally that utilized large amounts of data to
-        generate front end interfaces and data visualizations.
+        generate front end interfaces and data visualizations!
       </p>
     </div>
   );
