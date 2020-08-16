@@ -1,0 +1,17 @@
+.container {
+  padding: 1rem;
+  width: 50%;
+}
+
+.resume-summary-heading {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+.resume-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}

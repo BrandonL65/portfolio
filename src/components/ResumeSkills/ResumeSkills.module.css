@@ -1,0 +1,16 @@
+.container {
+  padding: 1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.resume-skills-heading {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
