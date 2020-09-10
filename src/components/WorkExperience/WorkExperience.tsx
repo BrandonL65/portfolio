@@ -11,7 +11,7 @@ const WorkExperience = () => {
           Work Experience
         </h1>
         <hr className={styles["hr"]} data-aos="fade-up"></hr>
-        <div data-aos="fade-up">
+        <div>
           <Experience
             logo={mlbLogo}
             companyName="MLB Advanced Media L.P."

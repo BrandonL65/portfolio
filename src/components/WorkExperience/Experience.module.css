@@ -36,7 +36,10 @@
 }
 
 .work-details {
+  padding: 1rem;
   max-width: 60%;
+  backdrop-filter: blur(35px);
+  border-radius: 25px;
 }
 
 .work-dates {
@@ -44,6 +47,9 @@
 }
 
 .work-highlights-li {
-  margin: 0.4rem 0;
-  font-size: 0.9rem;
+  margin: 0.55rem 0;
+  font-size: 0.95rem;
+  /* backdrop-filter: blur(35px);
+  border-radius: 20px;
+  padding: 0.25rem; */
 }

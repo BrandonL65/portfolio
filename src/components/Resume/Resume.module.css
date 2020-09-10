@@ -1,6 +1,6 @@
 .container {
   background-color: rgba(210, 206, 221, 0.425);
-  backdrop-filter: blur(13px);
+  /* backdrop-filter: blur(12px); */
 }
 
 .title {

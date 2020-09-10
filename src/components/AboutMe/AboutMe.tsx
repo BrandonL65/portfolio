@@ -5,7 +5,7 @@ import pic from "../../pictures/me.jpg";
 const AboutMe = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles["about-me"]} data-aos="fade-left">
+      <h1 className={styles["about-me"]} data-aos="fade-in">
         About me
       </h1>
       <hr className={styles["hr"]} data-aos="fade-right"></hr>
@@ -22,20 +22,12 @@ const AboutMe = () => {
             applications using TypeScript, React, GraphQL, NodeJS, and much more
             across the stack.
           </p>
-          <hr
-            className={styles["horizontal-rule"]}
-            data-aos="fade-left"
-            data-aos-offset="-40"
-          ></hr>
+          <hr className={styles["horizontal-rule"]} data-aos="fade-in"></hr>
           <p className={styles["bio"]} data-aos="fade-in">
             I'm super passionate about developing applications that are visually
             appealing, that combine data with intuitive to use interfaces.
           </p>
-          <hr
-            className={styles["horizontal-rule"]}
-            data-aos="fade-left"
-            data-aos-offset="-40"
-          ></hr>
+          <hr className={styles["horizontal-rule"]} data-aos="fade-in"></hr>
           <p className={styles["bio"]} data-aos="fade-in">
             I believe combining these will garner more interactivity and usage,
             leading to a more satisfying user experience.

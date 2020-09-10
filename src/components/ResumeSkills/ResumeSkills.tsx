@@ -19,7 +19,9 @@ export default ResumeSkills;
 let skills = [
   "JavaScript, TypeScript, and Python",
   "React with Redux/MobX",
-  "GraphQL with SQL backend and REST APIs",
+  "GraphQL with PostgreSQL backend and REST APIs",
   "Data Visualization with D3, ChartJS",
   "NodeJS with Express and custom Controllers & Routes",
+  "Building custom controllers with Node, Rails",
+  "Relational and Non-Relational DB modeling",
 ];
