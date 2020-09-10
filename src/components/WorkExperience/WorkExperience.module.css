@@ -6,8 +6,6 @@
 .container {
   flex-grow: 1;
   padding-top: 2rem;
-  /* background-color: rgba(210, 206, 221, 0.377);
-  backdrop-filter: blur(13px); */
   min-height: 40vh;
   font-family: "Montserrat", sans-serif;
 }
@@ -21,7 +19,7 @@
 
 .hr {
   margin: 1rem auto;
-  width: 75%;
+  width: 82%;
   border-top: none;
   border-bottom-style: solid;
   border-width: thin;

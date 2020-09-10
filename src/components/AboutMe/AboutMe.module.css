@@ -1,8 +1,5 @@
 .container {
-  /* background-color: rgb(204, 203, 221); */
-  /* background-color: rgba(220, 220, 235, 0.198); */
-  /* background-color: rgba(192, 189, 202, 0.644); */
-  background-color: rgba(192, 189, 202, 0.349);
+  background-color: rgba(186, 181, 202, 0.459);
   min-height: 50vh;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 3.5rem;
@@ -44,7 +41,7 @@
   width: 40%;
   margin-left: 4rem;
   padding: 0.8rem;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(14px);
   border-radius: 7px;
 }
 
