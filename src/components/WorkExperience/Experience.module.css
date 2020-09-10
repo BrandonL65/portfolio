@@ -17,7 +17,7 @@
 
 .company-name {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 .company-image {
@@ -32,13 +32,14 @@
 }
 
 .work-role {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .work-details {
-  padding: 1rem;
+  padding: 0.5rem;
   max-width: 60%;
-  backdrop-filter: blur(35px);
+  background-color: rgba(255, 255, 255, 0.158);
+  backdrop-filter: blur(25px);
   border-radius: 25px;
 }
 
@@ -47,8 +48,8 @@
 }
 
 .work-highlights-li {
-  margin: 0.55rem 0;
-  font-size: 0.95rem;
+  margin: 0.6rem 0;
+  font-size: 1.05rem;
   /* backdrop-filter: blur(35px);
   border-radius: 20px;
   padding: 0.25rem; */

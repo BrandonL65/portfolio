@@ -1,6 +1,7 @@
 .container {
-  background-color: rgba(210, 206, 221, 0.425);
+  /* background-color: rgba(210, 206, 221, 0.425); */
   /* backdrop-filter: blur(12px); */
+  background-color: rgba(176, 168, 189, 0.171);
 }
 
 .title {
