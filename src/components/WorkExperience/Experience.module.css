@@ -32,7 +32,7 @@
 }
 
 .work-role {
-  font-size: 1rem;
+  font-size: 1.05rem;
 }
 
 .work-details {
@@ -45,6 +45,7 @@
 
 .work-dates {
   font-size: 0.9rem;
+  margin-right: 1rem;
 }
 
 .work-highlights-li {
