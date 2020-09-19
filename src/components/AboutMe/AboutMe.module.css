@@ -1,5 +1,6 @@
 .container {
-  background-color: rgba(186, 181, 202, 0.459);
+  /* background-color: rgba(186, 181, 202, 0.459); */
+  background-color: rgba(145, 139, 168, 0.459);
   min-height: 50vh;
   font-family: "Montserrat", sans-serif;
   padding-bottom: 3.5rem;
