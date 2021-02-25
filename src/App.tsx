@@ -4,6 +4,7 @@ import HeaderContainer from "./containers/HeaderContainer/HeaderContainer";
 import GreetingContainer from "./containers/GreetingContainer/GreetingContainer";
 import AboutMeContainer from "./containers/AboutMeContainer/AboutMeContainer";
 import ResumeContainer from "./containers/ResumeContainer/ResumeContainer";
+//AOS is what allows scroll effects across the page
 import AOS from "aos";
 import "aos/dist/aos.css";
 
