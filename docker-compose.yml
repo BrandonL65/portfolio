@@ -1,0 +1,7 @@
+services:
+  bportfolio:
+    image: test-portfolio2
+    stdin_open: true
+    tty: true
+    ports:
+      - 5000:3000
